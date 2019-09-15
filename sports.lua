@@ -835,13 +835,13 @@ return {
 		InertiaMultiplier  = { 1.15, 1,    1.68 },
 
 		-- Transmission
-		DriveBiasFront                 = 0.155,
-		InitialDriveGears              = 4,
-		InitialDriveForce              = 0.299,
+		DriveBiasFront                 = 0.156,
+		InitialDriveGears              = 5,
+		InitialDriveForce              = 0.308,
 		DriveInertia                   = 1.02,
 		ClutchChangeRateScaleUpShift   = 4.7,
 		ClutchChangeRateScaleDownShift = 4.6,
-		InitialDriveMaxFlatVel         = 163,
+		InitialDriveMaxFlatVel         = 165,
 		SteeringLock                   = 32.4,
 
 		-- Brake
@@ -860,7 +860,7 @@ return {
 		TractionLossMult         = 1.23,
 
 		-- Suspension
-		SuspensionForce       = 3.03,
+		SuspensionForce       = 2.96,
 		SuspensionCompDamp    = 1.27,
 		SuspensionReboundDamp = 0.595,
 		SuspensionUpperLimit  = 0.083,
@@ -911,11 +911,11 @@ return {
 		-- Transmission
 		DriveBiasFront                 = 0,
 		InitialDriveGears              = 6,
-		InitialDriveForce              = 0.38,
+		InitialDriveForce              = 0.40,
 		DriveInertia                   = 0.94,
 		ClutchChangeRateScaleUpShift   = 2.0,
 		ClutchChangeRateScaleDownShift = 2.2,
-		InitialDriveMaxFlatVel         = 160,
+		InitialDriveMaxFlatVel         = 168,
 		SteeringLock                   = 32.6,
 
 		-- Brake
@@ -986,11 +986,11 @@ return {
 		-- Transmission
 		DriveBiasFront                 = 0.35,
 		InitialDriveGears              = 6,
-		InitialDriveForce              = 0.351,
+		InitialDriveForce              = 0.352,
 		DriveInertia                   = 1,
 		ClutchChangeRateScaleUpShift   = 2.2,
 		ClutchChangeRateScaleDownShift = 2.2,
-		InitialDriveMaxFlatVel         = 145,
+		InitialDriveMaxFlatVel         = 149,
 		SteeringLock                   = 34,
 
 		-- Brake
@@ -999,8 +999,8 @@ return {
 		HandBrakeForce = 0.6,
 
 		-- Traction
-		TractionCurveMax         = 2.45,
-		TractionCurveMin         = 2.15,
+		TractionCurveMax         = 2.50,
+		TractionCurveMin         = 2.17,
 		TractionCurveLateral	 = 20.0,
 		TractionSpringDeltaMax   = 0.15,
 		LowSpeedTractionLossMult = 1,
@@ -1009,7 +1009,7 @@ return {
 		TractionLossMult         = 0.35,
 
 		-- Suspension
-		SuspensionForce       = 1.6,
+		SuspensionForce       = 1.5,
 		SuspensionCompDamp    = 1.4,
 		SuspensionReboundDamp = 3.5,
 		SuspensionUpperLimit  = 0.09,
@@ -1286,11 +1286,11 @@ return {
 		-- Transmission
 		DriveBiasFront                 = 0.101,
 		InitialDriveGears              = 7,
-		InitialDriveForce              = 0.310,
+		InitialDriveForce              = 0.318,
 		DriveInertia                   = 0.98,
 		ClutchChangeRateScaleUpShift   = 1.5,
 		ClutchChangeRateScaleDownShift = 2,
-		InitialDriveMaxFlatVel         = 173,
+		InitialDriveMaxFlatVel         = 180,
 		SteeringLock                   = 33.2,
 
 		-- Brake
@@ -1361,11 +1361,11 @@ return {
 		-- Transmission
 		DriveBiasFront                 = 0,
 		InitialDriveGears              = 6,
-		InitialDriveForce              = 0.351,
+		InitialDriveForce              = 0.360,
 		DriveInertia                   = 1,
 		ClutchChangeRateScaleUpShift   = 2.4,
 		ClutchChangeRateScaleDownShift = 2.3,
-		InitialDriveMaxFlatVel         = 191,
+		InitialDriveMaxFlatVel         = 198,
 		SteeringLock                   = 32.8,
 
 		-- Brake
@@ -2941,22 +2941,22 @@ return {
 		SteeringLock                   = 33.4,
 
 		-- Brake
-		BrakeForce     = 0.252,
-		BrakeBiasFront = 0.4187,
+		BrakeForce     = 0.260,
+		BrakeBiasFront = 0.4195,
 		HandBrakeForce = 0.8,
 
 		-- Traction
-		TractionCurveMax         = 1.23,
-		TractionCurveMin         = 1.012,
+		TractionCurveMax         = 1.28,
+		TractionCurveMin         = 1.009,
 		TractionCurveLateral	 = 16.9,
 		TractionSpringDeltaMax   = 0.139,
-		LowSpeedTractionLossMult = 0.11,
+		LowSpeedTractionLossMult = 0.09,
 		CamberStiffnesss		 = 0,
 		TractionBiasFront        = 0.4877,
-		TractionLossMult         = 0.85,
+		TractionLossMult         = 0.79,
 
 		-- Suspension
-		SuspensionForce       = 2.91,
+		SuspensionForce       = 2.90,
 		SuspensionCompDamp    = 1.42,
 		SuspensionReboundDamp = 0.55,
 		SuspensionUpperLimit  = 0.067,
@@ -3021,17 +3021,17 @@ return {
 		HandBrakeForce = 0.25,
 
 		-- Traction
-		TractionCurveMax         = 1.775,
-		TractionCurveMin         = 1.6,
+		TractionCurveMax         = 1.780,
+		TractionCurveMin         = 1.5,
 		TractionCurveLateral	 = 20.5,
 		TractionSpringDeltaMax   = 0.1,
 		LowSpeedTractionLossMult = 1.1,
 		CamberStiffnesss		 = 0,
 		TractionBiasFront        = 0.495,
-		TractionLossMult         = 1.2,
+		TractionLossMult         = 1.1,
 
 		-- Suspension
-		SuspensionForce       = 2.5,
+		SuspensionForce       = 2.4,
 		SuspensionCompDamp    = 1.8,
 		SuspensionReboundDamp = 4.3,
 		SuspensionUpperLimit  = 0.1,
